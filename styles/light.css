@@ -3,13 +3,13 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.page.theme_light {
-  /*--accent-color: #ff8dcb;
+:root .theme_light {
+  --accent-color: #ff8dcb;
   --button-color: #353430;
   --title-color: #ffc2e6;
   --text-color: #353430;
   --text-title-color: #000028;
-  --background-image: url(./images/cover-image-light.png);*/
+  --background-image: url(/images/cover-image-light.png);
 }
 
 .page.theme_light {

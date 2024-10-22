@@ -33,7 +33,6 @@
 }
 
 .rec-decoration-text {
-  /*margin-inline-start: 295px;*/
   right: 28px;
   width: 33px;
   height: 26px;
@@ -46,8 +45,6 @@
 }
 
 .neon-circle {
-  /*margin-left: 347px;
-  margin-top: 7px;*/
   right: 9px;
   top: 18px;
   background-color: var(--neon-color);
@@ -56,21 +53,6 @@
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--neon-color);
   position: absolute;
-}
-
-@media (375px < width) {
-  .page {
-    padding-inline-end: 20px;
-    padding-inline-start: 20px;
-  }
-
-  .rec-decoration-text {
-    top: 20px;
-  }
-
-  .neon-circle {
-    top: 28px;
-  }
 }
 
 .header__theme-menu {
@@ -117,22 +99,6 @@
   line-height: 95.7px;
 }
 
-@media (355px < width <= 768px) {  
-  .header__theme-menu {
-    margin-block-start: clamp(63px, 40%, 180px);
-  }
-  
-  .header__title {
-    margin-block-start: clamp(70px, 40%, 177px);   
-    margin-inline-start: -20px;         
-  }
-
-  .header__text {
-    margin: 67px;
-    margin-inline-start: 364px;
-  }
-} 
-
 .header__text {
   margin-block-start: 53px;
   font-family: var(--main-font);
@@ -143,11 +109,47 @@
   background-color: var(--accent-color);
 }
 
+@media (375px < width <= 768px) {  
+  .header__theme-menu {
+    margin-block-start: clamp(63px, 40%, 180px);
+  }
+  
+  .header__title {
+    margin-block-start: clamp(70px, 40%, 177px);   
+    margin-inline-start: -20px;         
+  }
+
+  .header__text {
+    margin-inline-start: 364px;
+    margin-block-start: 67px;
+  }
+} 
+
 .main-content {
   margin-block-start: 106px;
   margin-block-end: 30px;
   display: grid;
   gap: 40px;
+}
+
+@media (375px < width) {
+  .page {
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+  }
+
+  .rec-decoration-text {
+    top: 20px;
+  }
+
+  .neon-circle {
+    top: 28px;
+  }
+
+  .main-content {
+    margin-block-start: 242px;
+    gap: 70px;
+  }
 }
 
 .section-content {
@@ -171,6 +173,27 @@
 .paragraph-content {
   display: grid;
   gap: 10px;
+}
+
+@media (768px <= width) {
+  .section-content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, fit-content(100%));
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .paragraph-content {
+    padding-inline-start: 7px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .section-content:nth-of-type(2n) .paragraph-content {
+    padding-inline-start: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 }
 
 .paragraph-title {

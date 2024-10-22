@@ -8,8 +8,10 @@
   --bold-font-weight: 700;
   --main-font-size: 18px;
   --neon-color: #ff0070;
-  --accent-color: var(var(--neon-color));
+  --accent-color: var(--neon-color);
+  --button-color: var(--neon-color);
   --title-color: #db00ff;
   --text-color: #f1b2ce;
   --text-title-color: #000028;
+  --background-image: url(/images/cover-image-dark.png);
 }   
