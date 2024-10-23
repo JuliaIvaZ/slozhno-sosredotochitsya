@@ -9,7 +9,8 @@
   --title-color: #ffc2e6;
   --text-color: #353430;
   --text-title-color: #000028;
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url(./images/cover-image-light.png);
+  --background-color: #fff1f7;
 }
 
 .page.theme_light {
@@ -17,37 +18,5 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  /*background-image: var(--background-image) no-repeat;
-  margin-block-start: 0;
-  padding-inline-end: 10px;
-  padding-inline-start: 10px;
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;*/
 }
 
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: var(--neon-color);
-    --button-color: var(--neon-color);
-    --title-color: #db00ff;
-    --text-color: #f1b2ce;
-    --text-title-color: #000028;
-    --background-image: url(./images/cover-image-dark.png);*/
-
-   /* .page.theme_light {
-      background-image: var(--background-image) no-repeat;
-    }
-}
-
-
-
-.rec-decoration-text {
-  color: transparent;
-}
-
-*/
