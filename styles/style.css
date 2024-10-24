@@ -86,6 +86,10 @@
   position: absolute;
 }
 
+.theme_dark.decorated-zone.rec-decoration-text {
+  visibility: visible;
+}
+
 .header__theme-menu {
   display: grid;
   grid-template-columns: 1fr 70px;
