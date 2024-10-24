@@ -295,14 +295,14 @@ a:focus-visible {
 }
 
 @media (375px < width <= 768px) {  
-  
+
   .header__theme-menu {
     margin-block-start: clamp(63px, 40%, 170px);
   }
   
   .header__title {
     margin-block-start: clamp(70px, 40%, 177px);   
-    margin-inline-start: -20px;         
+    margin-inline-start: -20px;
   }
 
   .header__text {
@@ -344,7 +344,6 @@ a:focus-visible {
     gap: 20px;
     width: calc(100vw - 2 * 20px); 
     grid-template-columns: repeat(3, calc((100vw - 4 * 20px) / 3));
-    /*grid-template-rows: clamp(192px, 12%, 260px) clamp(230px, 10%, 315px) clamp(318px, 10%, 428px);*/
     grid-template-areas: 
     "first first second"
     "third fourth second"
