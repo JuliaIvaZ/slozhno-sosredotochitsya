@@ -6,15 +6,35 @@
 :root .theme_light {
   --accent-color: #ff8dcb;
   --button-color: #32312d;
+  --button-color-hover: rgba(50, 49, 45, 0.4);
   --title-color: #ffc2e6;
+  --section-title-color: #353430;     /*#ff0070*/
   --text-color: #353430;
-  --text-title-color: #000028;
-  --background-image: url(./images/cover-image-light.png);
+  --text-title-color: #353430;
+  --background-image: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
 
   .rec-decoration-text {
     visibility: hidden;
   }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --button-color: #353430;
+    --button-color-hover: rgba(50, 49, 45, 0.4);
+    --title-color: #ffc2e6;
+    --section-title-color: #353430;
+    --text-color: #353430;
+    --text-title-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
+  }
+
+.rec-decoration {
+  visibility: hidden;
+}
 }
 
 .page.theme_light {
