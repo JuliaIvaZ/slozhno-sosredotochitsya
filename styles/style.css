@@ -208,6 +208,11 @@ button:focus {
   line-height: 1.4625rem;
 }
 
+.advice-block {
+  display: grid;
+  gap: 20px;
+}
+
 .paragraph-title_advice {
   /*color: var(--text-title-color);
   line-height: 1.4625rem;
@@ -334,8 +339,8 @@ button:focus {
     padding-inline-start: 7px;
     grid-column-start: 2;
     grid-column-end: 4;
-    display: grid;
-    gap: 20px;
+    /*display: grid;
+    gap: 20px;*/
   }
 
   .section-title__images {
@@ -446,13 +451,13 @@ button:focus {
   }
 
   .header__title {
-    margin-block-start: 293px;
+    margin-block-start: 275px;
     margin-inline-start: -20px;
     line-height: 8.0956rem;
   }
 
   .header__text {
-    margin-block-start: 130px;
+    margin-block-start: 115px;
     margin-inline-start: 492px;
   }
 
