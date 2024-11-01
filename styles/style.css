@@ -178,6 +178,7 @@ button:focus {
 .section-title__images {
   margin-block-end: 0;
   width: inherit;
+  color: var(--text-title-color);
   background-color: var(--accent-color);
 }
 

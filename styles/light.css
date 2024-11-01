@@ -14,7 +14,7 @@
   --background-image: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
 
-  .rec-decoration-text {
+  .rec-decoration {
     visibility: hidden;
   }
 }
